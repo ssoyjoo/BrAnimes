@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrAnimes</title>
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
 
     <header>
-        <div>
-            <section>
+        <div class="container">
+            <section id="logo">
                 <img src="imagens/logo.png">
             </section>
-            <section>
+            <section id="direita">
                 <p>Seus melhores animes em um único lugar.</p>
                 <nav>
                     <a href="index.html">HOME</a>
@@ -29,8 +30,18 @@
     </header>
 
     <main>
-
-
+<h1>Contato</h1>
+<section id="contato">
+    <figure>
+        <img src="imagens/email.png">
+    </figure>
+    <form>
+        <input type="text" name="txtnome" placeholder="Nome">
+        <input type="text" name="txtemail" placeholder="E-mail">
+        <Textarea rows="4" cols="40" name="msg" placeholder="Mensagens"></Textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
     </main>
 
     <footer>
